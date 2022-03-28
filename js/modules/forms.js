@@ -32,7 +32,7 @@ function forms(formSelector, modalTimerId) {
                 object[key] = value;
             });
 
-            fetch('http://localhost:3000/requests', {
+            fetch('sever.php', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
